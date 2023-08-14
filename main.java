@@ -227,17 +227,3 @@ class HashMaps {
         });
     }
 }
-
-class ObjectOriented {
-    public static void main(String[] args) {
-        User youngerUser = new User();
-
-        youngerUser.name = "Harry Day";
-        youngerUser.birthDay = LocalDate.parse("1997-04-30"); // YYYYMMDD
-
-        System.out.printf("%s was born back in %s", youngerUser.name, youngerUser.birthDay.toString());
-    }
-}
-
-
-// TODO - Focus more on OOP
